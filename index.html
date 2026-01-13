@@ -4,17 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- //login form -->
-     <form action="/login" method="post">
-        <label for="username">Username:</label>
-        <input type="text" id="username" name="username" required>
-        <br>
-        <label for="password">Password:</label>
-        <input type="password" id="password" name="password" required>
-        <br>
-        <button type="submit">Login</button>
-        
+    <div class="container">
+        <h2>Login Form</h2>
+        <form>
+            <label>Username</label>
+            <input type="text" required>
+            <label>Password</label>
+            <input type="password" required>
+            <label>Age</label>
+            <select id="age">
+                <option value="">Select Age</option>
+            </select>
+            <button>Login</button>
+        </form>
+    </div>
+<script src="script.js" defer></script>
 </body>
 </html>
